@@ -1,0 +1,186 @@
+header{
+    background-color: #4a1717;
+    overflow: hidden;    
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+.navTopBar{
+    width: 100%;
+    position: relative;
+    z-index: 300;
+    background-color: #4a1717;
+}
+.SeachBtn{
+  width:30px;
+  height :auto;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.menuExpand{
+  width: 30px;
+  height: auto;
+  float: left;
+  margin-top: 30px;
+}
+
+.navMenu{
+  width: 100%;
+  float:left;
+  min-height: 80px;
+  position: relative;
+}
+#myNav{
+    height:100%;
+}
+.mainSlider{
+  width:100%;
+  position:relative;
+  margin-top: 20px;
+}
+
+#carouselmainslider{
+  display: block;
+}
+.navbg{
+  margin-bottom:20px;   
+  background-color: #4a1717;
+  position: relative;
+}
+#brand_logo{
+  transition: 0.2s;
+  float :left;
+  padding-left:20px;
+  margin-top:15px;
+}
+.navTopBar span{
+    color:#ffffff;
+}
+.navBtn{
+    font-size: 50px;
+    cursor: pointer;
+    margin: auto auto;
+    display: block;
+    position: absolute;
+    left: 10%;
+    min-height: 100px;
+}
+
+.Mglogo{
+    display: block;
+    width:300px;
+    height: auto;
+    float: left;
+    padding-left:30px;
+}
+
+.brandBlock h2{
+    font-size: 2.6rem;
+    font-weight: 100;
+    text-indent: 10px;
+}
+
+.brandBlock .FLogo,.brandBlock h2{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 0px 0px 10px 0px; 
+    margin: 0px;
+    text-align: left;
+   
+}
+.pageLable{
+    float: right;
+    display: inline;
+    font-size: 25px;
+    color: #ff0000;
+}
+.FLogo{
+    display: block;
+    width:400px;
+    height: auot;
+    float: left;
+    padding-left:30px;
+}
+   .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom:0px; 
+    padding-left: 0px;
+  }
+ 
+.overlay-content li {
+    list-style-type: none;
+    padding-left:0px;
+}
+ 
+
+.overlay-content li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica Bold, sans-serif;
+    padding: 8px;
+    padding-top: 8px;
+    text-decoration: none;
+    font-size: 120px;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    padding-top: 30px;
+    text-align: left;
+    line-height: 68px;
+  }
+  
+  .overlay-content li a:hover{
+    color: #4a1717;
+  }
+  
+  
+  .overlay-content li:first-child a:hover{
+    color:#ff0000;
+  }
+
+ .overlay-content li:first-child a{
+    background-color: #4a1717;
+  }
+
+ .overlay-content li:nth-child(2) a {
+        background: #ff0000; /* Old browsers */
+        background: -moz-linear-gradient(top, #ff0000 0%, #f70000 53%, #c00000 84%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ff0000 0%,#f70000 53%,#c00000 84%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ff0000 0%,#f70000 53%,#c00000 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#c00000',GradientType=0 ); /* IE6-9 */
+
+  }
+        
+  .overlay-content li:nth-child(3) a {
+        background: #ff4e00; /* Old browsers */
+        background: -moz-linear-gradient(top, #ff4e00 0%, #ff5d00 54%, #c0000c 91%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ff4e00 0%,#ff5d00 54%,#c0000c 91%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ff4e00 0%,#ff5d00 54%,#c0000c 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4e00', endColorstr='#c0000c',GradientType=0 ); /* IE6-9 */
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
