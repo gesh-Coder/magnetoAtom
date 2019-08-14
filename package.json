@@ -2,7 +2,7 @@
   "name": "magneto_rec",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/gesh-Coder/magnetoAtom/",
+  "homepage": "http://magneto_rec.github.io/magneto_rec",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
